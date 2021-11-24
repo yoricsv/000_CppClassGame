@@ -1,0 +1,1600 @@
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_9d8a8/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9d8a8.dir\build.make CMakeFiles/cmTC_9d8a8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d8a8.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -maltivec -o CMakeFiles\cmTC_9d8a8.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-maltivec'; did you mean '-mxsavec'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_9d8a8.dir\build.make:77: CMakeFiles/cmTC_9d8a8.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_9d8a8/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_c12e9/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c12e9.dir\build.make CMakeFiles/cmTC_c12e9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c12e9.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_ALTIVEC  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -maltivec -o CMakeFiles\cmTC_c12e9.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-maltivec'; did you mean '-mxsavec'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_c12e9.dir\build.make:77: CMakeFiles/cmTC_c12e9.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_c12e9/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_2d99c/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2d99c.dir\build.make CMakeFiles/cmTC_2d99c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d99c.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_2d99c.dir\CheckIncludeFile.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+ #include <libunwind.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_2d99c.dir\build.make:77: CMakeFiles/cmTC_2d99c.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_2d99c/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_MPROTECT failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_be668/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_be668.dir\build.make CMakeFiles/cmTC_be668.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be668.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_MPROTECT  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_be668.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:2:39: fatal error: sys/mman.h: No such file or directory
+                              #include <sys/mman.h>
+                                       ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_be668.dir\build.make:77: CMakeFiles/cmTC_be668.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_be668/fast] Error 2
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the setenv exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_4a571/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4a571.dir\build.make CMakeFiles/cmTC_4a571.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a571.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_4a571.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'setenv' undeclared (first use in this function); did you mean 'getenv'?
+   return ((int*)(&setenv))[argc];
+                   ^~~~~~
+                   getenv
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4a571.dir\build.make:77: CMakeFiles/cmTC_4a571.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_4a571/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_97c79/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_97c79.dir\build.make CMakeFiles/cmTC_97c79.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97c79.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_97c79.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'unsetenv' undeclared (first use in this function); did you mean '_wgetenv'?
+   return ((int*)(&unsetenv))[argc];
+                   ^~~~~~~~
+                   _wgetenv
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_97c79.dir\build.make:77: CMakeFiles/cmTC_97c79.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_97c79/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bcopy exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_f1f37/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f1f37.dir\build.make CMakeFiles/cmTC_f1f37.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1f37.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_f1f37.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'bcopy' undeclared (first use in this function)
+   return ((int*)(&bcopy))[argc];
+                   ^~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f1f37.dir\build.make:77: CMakeFiles/cmTC_f1f37.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_f1f37/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_d3df5/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d3df5.dir\build.make CMakeFiles/cmTC_d3df5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3df5.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_d3df5.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcpy' undeclared (first use in this function); did you mean 'strncpy'?
+   return ((int*)(&strlcpy))[argc];
+                   ^~~~~~~
+                   strncpy
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_d3df5.dir\build.make:77: CMakeFiles/cmTC_d3df5.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_d3df5/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_554a2/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_554a2.dir\build.make CMakeFiles/cmTC_554a2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_554a2.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_554a2.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcat' undeclared (first use in this function); did you mean 'strncat'?
+   return ((int*)(&strlcat))[argc];
+                   ^~~~~~~
+                   strncat
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_554a2.dir\build.make:77: CMakeFiles/cmTC_554a2.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_554a2/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_50b75/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_50b75.dir\build.make CMakeFiles/cmTC_50b75.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50b75.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_50b75.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'index' undeclared (first use in this function)
+   return ((int*)(&index))[argc];
+                   ^~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_50b75.dir\build.make:77: CMakeFiles/cmTC_50b75.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_50b75/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_068ba/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_068ba.dir\build.make CMakeFiles/cmTC_068ba.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_068ba.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_068ba.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'rindex' undeclared (first use in this function); did you mean 'rand'?
+   return ((int*)(&rindex))[argc];
+                   ^~~~~~
+                   rand
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_068ba.dir\build.make:77: CMakeFiles/cmTC_068ba.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_068ba/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_e1aa8/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e1aa8.dir\build.make CMakeFiles/cmTC_e1aa8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1aa8.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_e1aa8.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: '_uitoa' undeclared (first use in this function); did you mean '_ultoa'?
+   return ((int*)(&_uitoa))[argc];
+                   ^~~~~~
+                   _ultoa
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_e1aa8.dir\build.make:77: CMakeFiles/cmTC_e1aa8.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_e1aa8/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_2a513/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2a513.dir\build.make CMakeFiles/cmTC_2a513.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a513.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_2a513.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcat' undeclared (first use in this function); did you mean 'wcsncat'?
+   return ((int*)(&wcslcat))[argc];
+                   ^~~~~~~
+                   wcsncat
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_2a513.dir\build.make:77: CMakeFiles/cmTC_2a513.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_2a513/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_a3b3b/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a3b3b.dir\build.make CMakeFiles/cmTC_a3b3b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3b3b.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_a3b3b.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcpy' undeclared (first use in this function); did you mean 'wcsncpy'?
+   return ((int*)(&wcslcpy))[argc];
+                   ^~~~~~~
+                   wcsncpy
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a3b3b.dir\build.make:77: CMakeFiles/cmTC_a3b3b.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_a3b3b/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscasecmp exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_6c3cd/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6c3cd.dir\build.make CMakeFiles/cmTC_6c3cd.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c3cd.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_6c3cd.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcscasecmp' undeclared (first use in this function); did you mean 'strcasecmp'?
+   return ((int*)(&wcscasecmp))[argc];
+                   ^~~~~~~~~~
+                   strcasecmp
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_6c3cd.dir\build.make:77: CMakeFiles/cmTC_6c3cd.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_6c3cd/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncasecmp exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_c771b/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c771b.dir\build.make CMakeFiles/cmTC_c771b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c771b.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_c771b.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcsncasecmp' undeclared (first use in this function); did you mean 'strncasecmp'?
+   return ((int*)(&wcsncasecmp))[argc];
+                   ^~~~~~~~~~~
+                   strncasecmp
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_c771b.dir\build.make:77: CMakeFiles/cmTC_c771b.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_c771b/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_9a0ac/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9a0ac.dir\build.make CMakeFiles/cmTC_9a0ac.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a0ac.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_9a0ac.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sigaction' undeclared (first use in this function)
+   return ((int*)(&sigaction))[argc];
+                   ^~~~~~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_9a0ac.dir\build.make:77: CMakeFiles/cmTC_9a0ac.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_9a0ac/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_4ca50/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4ca50.dir\build.make CMakeFiles/cmTC_4ca50.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ca50.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_4ca50.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sysconf' undeclared (first use in this function)
+   return ((int*)(&sysconf))[argc];
+                   ^~~~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4ca50.dir\build.make:77: CMakeFiles/cmTC_4ca50.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_4ca50/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_b34a2/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b34a2.dir\build.make CMakeFiles/cmTC_b34a2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b34a2.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_b34a2.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
+ #include <sys/sysctl.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b34a2.dir\build.make:77: CMakeFiles/cmTC_b34a2.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_b34a2/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_330f7/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_330f7.dir\build.make CMakeFiles/cmTC_330f7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_330f7.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_330f7.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+ #include <sys/auxv.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_330f7.dir\build.make:77: CMakeFiles/cmTC_330f7.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_330f7/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_cbcb4/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cbcb4.dir\build.make CMakeFiles/cmTC_cbcb4.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbcb4.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_cbcb4.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+ #include <sys/auxv.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_cbcb4.dir\build.make:77: CMakeFiles/cmTC_cbcb4.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_cbcb4/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_0bd9a/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0bd9a.dir\build.make CMakeFiles/cmTC_0bd9a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bd9a.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_0bd9a.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: poll.h: No such file or directory
+ #include <poll.h>
+          ^~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_0bd9a.dir\build.make:77: CMakeFiles/cmTC_0bd9a.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_0bd9a/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_f39b6/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f39b6.dir\build.make CMakeFiles/cmTC_f39b6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f39b6.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -maltivec -o CMakeFiles\cmTC_f39b6.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-maltivec'; did you mean '-mxsavec'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f39b6.dir\build.make:77: CMakeFiles/cmTC_f39b6.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_f39b6/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_c78bf/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c78bf.dir\build.make CMakeFiles/cmTC_c78bf.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c78bf.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_ALTIVEC  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -maltivec -o CMakeFiles\cmTC_c78bf.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-maltivec'; did you mean '-mxsavec'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_c78bf.dir\build.make:77: CMakeFiles/cmTC_c78bf.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_c78bf/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_0ade3/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0ade3.dir\build.make CMakeFiles/cmTC_0ade3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ade3.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_0ade3.dir\CheckIncludeFile.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+ #include <libunwind.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_0ade3.dir\build.make:77: CMakeFiles/cmTC_0ade3.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_0ade3/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_MPROTECT failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_11125/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_11125.dir\build.make CMakeFiles/cmTC_11125.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11125.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_MPROTECT  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_11125.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:2:39: fatal error: sys/mman.h: No such file or directory
+                              #include <sys/mman.h>
+                                       ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_11125.dir\build.make:77: CMakeFiles/cmTC_11125.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_11125/fast] Error 2
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the setenv exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_73e01/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_73e01.dir\build.make CMakeFiles/cmTC_73e01.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73e01.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_73e01.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'setenv' undeclared (first use in this function); did you mean 'getenv'?
+   return ((int*)(&setenv))[argc];
+                   ^~~~~~
+                   getenv
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_73e01.dir\build.make:77: CMakeFiles/cmTC_73e01.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_73e01/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_f9ddd/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f9ddd.dir\build.make CMakeFiles/cmTC_f9ddd.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9ddd.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_f9ddd.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'unsetenv' undeclared (first use in this function); did you mean '_wgetenv'?
+   return ((int*)(&unsetenv))[argc];
+                   ^~~~~~~~
+                   _wgetenv
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f9ddd.dir\build.make:77: CMakeFiles/cmTC_f9ddd.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_f9ddd/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bcopy exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_86c13/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_86c13.dir\build.make CMakeFiles/cmTC_86c13.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86c13.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_86c13.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'bcopy' undeclared (first use in this function)
+   return ((int*)(&bcopy))[argc];
+                   ^~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_86c13.dir\build.make:77: CMakeFiles/cmTC_86c13.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_86c13/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_7ad31/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7ad31.dir\build.make CMakeFiles/cmTC_7ad31.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ad31.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_7ad31.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcpy' undeclared (first use in this function); did you mean 'strncpy'?
+   return ((int*)(&strlcpy))[argc];
+                   ^~~~~~~
+                   strncpy
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7ad31.dir\build.make:77: CMakeFiles/cmTC_7ad31.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7ad31/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_7bea3/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7bea3.dir\build.make CMakeFiles/cmTC_7bea3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bea3.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_7bea3.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcat' undeclared (first use in this function); did you mean 'strncat'?
+   return ((int*)(&strlcat))[argc];
+                   ^~~~~~~
+                   strncat
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7bea3.dir\build.make:77: CMakeFiles/cmTC_7bea3.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7bea3/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_8852a/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8852a.dir\build.make CMakeFiles/cmTC_8852a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8852a.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_8852a.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'index' undeclared (first use in this function)
+   return ((int*)(&index))[argc];
+                   ^~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_8852a.dir\build.make:77: CMakeFiles/cmTC_8852a.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_8852a/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_f8026/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f8026.dir\build.make CMakeFiles/cmTC_f8026.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8026.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_f8026.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'rindex' undeclared (first use in this function); did you mean 'rand'?
+   return ((int*)(&rindex))[argc];
+                   ^~~~~~
+                   rand
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f8026.dir\build.make:77: CMakeFiles/cmTC_f8026.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_f8026/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_f627c/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f627c.dir\build.make CMakeFiles/cmTC_f627c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f627c.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_f627c.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: '_uitoa' undeclared (first use in this function); did you mean '_ultoa'?
+   return ((int*)(&_uitoa))[argc];
+                   ^~~~~~
+                   _ultoa
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f627c.dir\build.make:77: CMakeFiles/cmTC_f627c.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_f627c/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_d773e/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d773e.dir\build.make CMakeFiles/cmTC_d773e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d773e.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_d773e.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcat' undeclared (first use in this function); did you mean 'wcsncat'?
+   return ((int*)(&wcslcat))[argc];
+                   ^~~~~~~
+                   wcsncat
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_d773e.dir\build.make:77: CMakeFiles/cmTC_d773e.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_d773e/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_7a729/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7a729.dir\build.make CMakeFiles/cmTC_7a729.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a729.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_7a729.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcpy' undeclared (first use in this function); did you mean 'wcsncpy'?
+   return ((int*)(&wcslcpy))[argc];
+                   ^~~~~~~
+                   wcsncpy
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7a729.dir\build.make:77: CMakeFiles/cmTC_7a729.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7a729/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscasecmp exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_075e8/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_075e8.dir\build.make CMakeFiles/cmTC_075e8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_075e8.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_075e8.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcscasecmp' undeclared (first use in this function); did you mean 'strcasecmp'?
+   return ((int*)(&wcscasecmp))[argc];
+                   ^~~~~~~~~~
+                   strcasecmp
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_075e8.dir\build.make:77: CMakeFiles/cmTC_075e8.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_075e8/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncasecmp exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_72de9/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_72de9.dir\build.make CMakeFiles/cmTC_72de9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72de9.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_72de9.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcsncasecmp' undeclared (first use in this function); did you mean 'strncasecmp'?
+   return ((int*)(&wcsncasecmp))[argc];
+                   ^~~~~~~~~~~
+                   strncasecmp
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_72de9.dir\build.make:77: CMakeFiles/cmTC_72de9.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_72de9/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_67ee3/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_67ee3.dir\build.make CMakeFiles/cmTC_67ee3.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ee3.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_67ee3.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sigaction' undeclared (first use in this function)
+   return ((int*)(&sigaction))[argc];
+                   ^~~~~~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_67ee3.dir\build.make:77: CMakeFiles/cmTC_67ee3.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_67ee3/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_7d4ae/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7d4ae.dir\build.make CMakeFiles/cmTC_7d4ae.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d4ae.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_7d4ae.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sysconf' undeclared (first use in this function)
+   return ((int*)(&sysconf))[argc];
+                   ^~~~~~~
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7d4ae.dir\build.make:77: CMakeFiles/cmTC_7d4ae.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_7d4ae/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_29e28/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_29e28.dir\build.make CMakeFiles/cmTC_29e28.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29e28.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_29e28.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
+ #include <sys/sysctl.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_29e28.dir\build.make:77: CMakeFiles/cmTC_29e28.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_29e28/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_cdc6e/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cdc6e.dir\build.make CMakeFiles/cmTC_cdc6e.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdc6e.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_cdc6e.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+ #include <sys/auxv.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_cdc6e.dir\build.make:77: CMakeFiles/cmTC_cdc6e.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_cdc6e/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_3ce02/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3ce02.dir\build.make CMakeFiles/cmTC_3ce02.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ce02.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_3ce02.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+ #include <sys/auxv.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_3ce02.dir\build.make:77: CMakeFiles/cmTC_3ce02.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_3ce02/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_111d5/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_111d5.dir\build.make CMakeFiles/cmTC_111d5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_111d5.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_111d5.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: poll.h: No such file or directory
+ #include <poll.h>
+          ^~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_111d5.dir\build.make:77: CMakeFiles/cmTC_111d5.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_111d5/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_1d560/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1d560.dir\build.make CMakeFiles/cmTC_1d560.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d560.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -o CMakeFiles\cmTC_1d560.dir\CheckFunctionExists.c.obj -c D:\CLine_2021_2_3\bin\cmake\win\share\cmake-3.20\Modules\CheckFunctionExists.c
+Linking C executable cmTC_1d560.exe
+D:\CLine_2021_2_3\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1d560.dir\link.txt --verbose=1
+D:\CLine_2021_2_3\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1d560.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_1d560.dir/objects.a @CMakeFiles\cmTC_1d560.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -Wl,--whole-archive CMakeFiles\cmTC_1d560.dir/objects.a -Wl,--no-whole-archive -o cmTC_1d560.exe -Wl,--out-implib,libcmTC_1d560.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1d560.dir\linklibs.rsp
+CMakeFiles\cmTC_1d560.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `iconv_open'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_1d560.dir\build.make:100: cmTC_1d560.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_1d560/fast] Error 2
+
+
+
+Determining if the function iconv_open exists in the c failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_fda4f/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_fda4f.dir\build.make CMakeFiles/cmTC_fda4f.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fda4f.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -o CMakeFiles\cmTC_fda4f.dir\CheckFunctionExists.c.obj -c D:\CLine_2021_2_3\bin\cmake\win\share\cmake-3.20\Modules\CheckFunctionExists.c
+Linking C executable cmTC_fda4f.exe
+D:\CLine_2021_2_3\bin\cmake\win\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_fda4f.dir\link.txt --verbose=1
+D:\CLine_2021_2_3\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\cmTC_fda4f.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_fda4f.dir/objects.a @CMakeFiles\cmTC_fda4f.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open -Wl,--whole-archive CMakeFiles\cmTC_fda4f.dir/objects.a -Wl,--no-whole-archive -o cmTC_fda4f.exe -Wl,--out-implib,libcmTC_fda4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fda4f.dir\linklibs.rsp
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: cannot find -lc
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_fda4f.dir\build.make:100: cmTC_fda4f.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_fda4f/fast] Error 2
+
+
+
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_25bda/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_25bda.dir\build.make CMakeFiles/cmTC_25bda.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25bda.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_25bda.dir\CheckIncludeFile.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: alloca.h: No such file or directory
+ #include <alloca.h>
+          ^~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_25bda.dir\build.make:77: CMakeFiles/cmTC_25bda.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_25bda/fast] Error 2
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_b0985/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b0985.dir\build.make CMakeFiles/cmTC_b0985.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0985.dir/CheckSymbolExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_b0985.dir\CheckSymbolExists.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: alloca.h: No such file or directory
+ #include <alloca.h>
+          ^~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b0985.dir\build.make:77: CMakeFiles/cmTC_b0985.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_b0985/fast] Error 2
+
+
+File C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_281fc/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_281fc.dir\build.make CMakeFiles/cmTC_281fc.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_281fc.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_SA_SIGACTION  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_281fc.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:39: error: dereferencing pointer to incomplete type 'struct sigaction'
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+                                       ^~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_281fc.dir\build.make:77: CMakeFiles/cmTC_281fc.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_281fc/fast] Error 2
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_09575/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_09575.dir\build.make CMakeFiles/cmTC_09575.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09575.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_XINPUT_GAMEPAD_EX  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_09575.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:4:7: error: unknown type name 'XINPUT_GAMEPAD_EX'; did you mean 'XINPUT_GAMEPAD_X'?
+       XINPUT_GAMEPAD_EX x1;
+       ^~~~~~~~~~~~~~~~~
+       XINPUT_GAMEPAD_X
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_09575.dir\build.make:77: CMakeFiles/cmTC_09575.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_09575/fast] Error 2
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_GAMEPAD_EX x1;
+      int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_84121/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_84121.dir\build.make CMakeFiles/cmTC_84121.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84121.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -DHAVE_XINPUT_STATE_EX  -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_84121.dir\src.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:4:7: error: unknown type name 'XINPUT_STATE_EX'; did you mean 'XINPUT_STATE'?
+       XINPUT_STATE_EX s1;
+       ^~~~~~~~~~~~~~~
+       XINPUT_STATE
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_84121.dir\build.make:77: CMakeFiles/cmTC_84121.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_84121/fast] Error 2
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_STATE_EX s1;
+      int main(int argc, char **argv) { }
+Determining if the include file windows.gaming.input.h exists failed with the following output:
+Change Dir: C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f Makefile cmTC_ddf5c/fast && C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ddf5c.dir\build.make CMakeFiles/cmTC_ddf5c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ddf5c.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter "C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/Engine/libs/SDL2/src/video/khronos"  -o CMakeFiles\cmTC_ddf5c.dir\CheckIncludeFile.c.obj -c C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+C:\Users\Yoric\OneDrive\Desktop\001_PROJECTS_\003_C++_Projects_\001_STUDY_\000_HOMEWORKS_\000_CPP_GAMEDEV_\000_CppClassGame\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: windows.gaming.input.h: No such file or directory
+ #include <windows.gaming.input.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ddf5c.dir\build.make:77: CMakeFiles/cmTC_ddf5c.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Yoric/OneDrive/Desktop/001_PROJECTS_/003_C++_Projects_/001_STUDY_/000_HOMEWORKS_/000_CPP_GAMEDEV_/000_CppClassGame/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_ddf5c/fast] Error 2
+
+
+
